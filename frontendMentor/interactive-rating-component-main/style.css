@@ -1,0 +1,80 @@
+body{
+    background-color:hsl(216, 12%, 8%);
+    font-size: 100%;
+}
+
+h1 {color: hsl(0,0%,100%);}
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: .6em;
+}
+form{
+    justify-content: center;
+}
+.numBtn{
+    margin-inline: .5vw;
+    border-radius: 3vw ;
+    border: none;
+}
+#ratingBox{
+    display: flex;
+    justify-content: center;
+    margin-left: 33.333vw;
+    margin-top: 25vh;
+    width: 33vw;
+    height: 70vh;
+    border: 1px solid fuchsia;
+    border-radius: 3vw;
+}
+#content{
+    display:flex;
+    flex-direction: column;
+    border: 1px solid lime;
+    margin: 5vw;
+}
+
+#content img{
+    flex: .25;
+    margin-bottom: 1vh;;
+}
+#content h1{
+    flex: .25;
+}
+#content p{
+    flex: .5;
+}
+
+#content form{
+    flex: .5;
+}
+
+#btnDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+#btnDiv input {
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(213, 19%, 18%);
+    width: 2em;
+    height: 2em
+}
+#submit{
+    display:flex;
+    justify-content: center;
+   
+}
+
+.submitBtn{
+    color: hsl(0, 0%, 100%);
+    background-color:hsl(25, 97%, 53%);
+     /* width: ; match width to button dist, get to adjust to screen size*/
+    border: none;
+    border-radius: 1vw;
+}
+
+
+
+
+
