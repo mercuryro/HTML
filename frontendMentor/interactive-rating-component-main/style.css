@@ -21,16 +21,18 @@ form{
     justify-content: center;
     margin-left: 33.333vw;
     margin-top: 25vh;
-    width: 33vw;
-    height: 70vh;
+    width: 35vw;
+    height: 55vh;
     border: 1px solid fuchsia;
     border-radius: 3vw;
+    background-image: linear-gradient(hsl(213, 19%, 18%),hsl(216, 12%, 8%));
 }
 #content{
     display:flex;
     flex-direction: column;
     border: 1px solid lime;
-    margin: 5vw;
+    margin: 2vw;
+   
 }
 
 #content img{
@@ -50,19 +52,24 @@ form{
 
 #btnDiv{
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 5vh;
+    justify-content:space-evenly;
+    margin-bottom: 2vh;
+    border: 1px solid blue;
+
 }
 
 #btnDiv input {
     color: hsl(217, 12%, 63%);
     background-color: hsl(213, 19%, 18%);
-    width: 2em;
-    height: 2em
+    width: 4vw;
+    height: 4vw;
+   
+   
 }
 #submit{
     display:flex;
     justify-content: center;
+    border: 1px solid orangered;
    
 }
 
@@ -71,7 +78,9 @@ form{
     background-color:hsl(25, 97%, 53%);
      /* width: ; match width to button dist, get to adjust to screen size*/
     border: none;
-    border-radius: 1vw;
+    border-radius: 2vw;
+    width: 27vw;
+    height: 5vh;
 }
 
 
