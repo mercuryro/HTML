@@ -1,5 +1,6 @@
 h1{ text-align: center;
     /*make font size larger */
+    font-family: 'Alegreya SC';
 }
 nav{
     display: flex;
@@ -14,12 +15,12 @@ nav button {
     border-radius: 1vw;
     border: .2vh solid white;
     box-shadow: -1vh 2vh darkseagreen;
-    
-
+    font-family: 'Roboto', sans-serif;
     
 }
 
 nav button:hover {
+    color: fuchsia;
   }
 nav button:active {
     transform: translateY(2vh) translateX(-1vh);
